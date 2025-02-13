@@ -172,6 +172,13 @@ $(document).ready(function() {
 				        </span>
 				    </div>
 				    
+				    <!-- 로그인 정보 버튼 -->
+				    <div class="text-end">
+				        <span id="loginInfoBtn" class="title-font text-red-500 hover:text-red-600 text-base">
+				            Test 계정으로 로그인 하려면 <span class="title-font text-custom-500 text-base">'로그인 정보'</span> 를 눌러주세요
+				        </span>
+				    </div>
+				    
 				    <!-- 모달 창 -->
 				    <div class="title-font" id="loginModal" style="display:none; position:fixed; z-index:1; left:0; top:0; width:100%; height:100%; background-color: rgba(0, 0, 0, 0.4);">
 				        <div style="background-color: white; margin: 10% auto; border-radius: 10px; width: 80%; max-width: 500px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
